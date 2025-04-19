@@ -10,7 +10,7 @@ public class Base
 {
     BrowserChoice browserChoice = new BrowserChoice();
 
-    final WebDriver driver = browserChoice.BrowserC("https://www.saucedemo.com/","firefox");
+    final WebDriver driver = browserChoice.BrowserC("https://www.saucedemo.com/"," ");
 
     SnapShot snapShot = PageFactory.initElements(driver,SnapShot.class);
 
